@@ -1,5 +1,5 @@
 #! python3
-# A function that validates the possible chess pieces
+# A function that validates the possible number chess pieces
 
 chess_board = {'1a': 'wrook', '1b': 'wknight', '1c': 'wbishop', '1d': 'wqueen', '1e': 'wking', '1f': 'wbishop',
                '1g': 'wknight', '1h': 'wrook', '2a': 'wpawn', '2b': 'wpawn', '2c': 'wpawn', '2d': 'wpawn',
