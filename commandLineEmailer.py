@@ -31,18 +31,16 @@ browser.get('https://outlook.live.com/')
 linkElem = browser.find_element(By.LINK_TEXT, 'Sign in')
 linkElem.click()
 
-#Username
+#  Username
 time.sleep(1)
 linkElem = browser.find_element(By.ID, 'i0116')
 linkElem.send_keys(emailAddress) # This will be the stored username from the terminal
-# linkElem.send_keys('Lucaspython@hotmail.com') # manually enter the username
 linkElem = browser.find_element(By.ID, 'idSIButton9')
 linkElem.click()
 
-#Password
+#  Password
 time.sleep(1)
 linkElem = browser.find_element(By.ID, 'i0118')
-# linkElem.send_keys('Lucas-python-1') # Add password when running test
 linkElem.send_keys(userPassword) # This will be stored from the argument within the termina
 linkElem = browser.find_element(By.ID, 'idSIButton9')
 linkElem.click()
